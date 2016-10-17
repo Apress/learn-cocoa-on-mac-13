@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6657033D16AB3F3400C7B545 /* MLListWindowDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657033C16AB3F3400C7B545 /* MLListWindowDelegate.m */; };
+		66DFF30016A3AA6C009E739F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DFF2FF16A3AA6C009E739F /* Cocoa.framework */; };
+		66DFF30A16A3AA6C009E739F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66DFF30816A3AA6C009E739F /* InfoPlist.strings */; };
+		66DFF30C16A3AA6C009E739F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DFF30B16A3AA6C009E739F /* main.m */; };
+		66DFF31016A3AA6C009E739F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66DFF30E16A3AA6C009E739F /* Credits.rtf */; };
+		66DFF31316A3AA6C009E739F /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DFF31216A3AA6C009E739F /* MLAppDelegate.m */; };
+		66DFF31616A3AA6D009E739F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66DFF31416A3AA6D009E739F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6657033B16AB3F3400C7B545 /* MLListWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLListWindowDelegate.h; sourceTree = "<group>"; };
+		6657033C16AB3F3400C7B545 /* MLListWindowDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLListWindowDelegate.m; sourceTree = "<group>"; };
+		66DFF2FB16A3AA6C009E739F /* MenuLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DFF2FF16A3AA6C009E739F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66DFF30216A3AA6C009E739F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66DFF30316A3AA6C009E739F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66DFF30416A3AA6C009E739F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66DFF30716A3AA6C009E739F /* MenuLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuLab-Info.plist"; sourceTree = "<group>"; };
+		66DFF30916A3AA6C009E739F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66DFF30B16A3AA6C009E739F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66DFF30D16A3AA6C009E739F /* MenuLab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuLab-Prefix.pch"; sourceTree = "<group>"; };
+		66DFF30F16A3AA6C009E739F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66DFF31116A3AA6C009E739F /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		66DFF31216A3AA6C009E739F /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+		66DFF31516A3AA6D009E739F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66DFF2F816A3AA6C009E739F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFF30016A3AA6C009E739F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66DFF2F016A3AA6C009E739F = {
+			isa = PBXGroup;
+			children = (
+				66DFF30516A3AA6C009E739F /* MenuLab */,
+				66DFF2FE16A3AA6C009E739F /* Frameworks */,
+				66DFF2FC16A3AA6C009E739F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66DFF2FC16A3AA6C009E739F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66DFF2FB16A3AA6C009E739F /* MenuLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66DFF2FE16A3AA6C009E739F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66DFF2FF16A3AA6C009E739F /* Cocoa.framework */,
+				66DFF30116A3AA6C009E739F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66DFF30116A3AA6C009E739F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66DFF30216A3AA6C009E739F /* AppKit.framework */,
+				66DFF30316A3AA6C009E739F /* CoreData.framework */,
+				66DFF30416A3AA6C009E739F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66DFF30516A3AA6C009E739F /* MenuLab */ = {
+			isa = PBXGroup;
+			children = (
+				66DFF31116A3AA6C009E739F /* MLAppDelegate.h */,
+				66DFF31216A3AA6C009E739F /* MLAppDelegate.m */,
+				66DFF31416A3AA6D009E739F /* MainMenu.xib */,
+				66DFF30616A3AA6C009E739F /* Supporting Files */,
+				6657033B16AB3F3400C7B545 /* MLListWindowDelegate.h */,
+				6657033C16AB3F3400C7B545 /* MLListWindowDelegate.m */,
+			);
+			path = MenuLab;
+			sourceTree = "<group>";
+		};
+		66DFF30616A3AA6C009E739F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66DFF30716A3AA6C009E739F /* MenuLab-Info.plist */,
+				66DFF30816A3AA6C009E739F /* InfoPlist.strings */,
+				66DFF30B16A3AA6C009E739F /* main.m */,
+				66DFF30D16A3AA6C009E739F /* MenuLab-Prefix.pch */,
+				66DFF30E16A3AA6C009E739F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66DFF2FA16A3AA6C009E739F /* MenuLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DFF31916A3AA6D009E739F /* Build configuration list for PBXNativeTarget "MenuLab" */;
+			buildPhases = (
+				66DFF2F716A3AA6C009E739F /* Sources */,
+				66DFF2F816A3AA6C009E739F /* Frameworks */,
+				66DFF2F916A3AA6C009E739F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuLab;
+			productName = MenuLab;
+			productReference = 66DFF2FB16A3AA6C009E739F /* MenuLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66DFF2F216A3AA6C009E739F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ML;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = myself;
+			};
+			buildConfigurationList = 66DFF2F516A3AA6C009E739F /* Build configuration list for PBXProject "MenuLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66DFF2F016A3AA6C009E739F;
+			productRefGroup = 66DFF2FC16A3AA6C009E739F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66DFF2FA16A3AA6C009E739F /* MenuLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66DFF2F916A3AA6C009E739F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFF30A16A3AA6C009E739F /* InfoPlist.strings in Resources */,
+				66DFF31016A3AA6C009E739F /* Credits.rtf in Resources */,
+				66DFF31616A3AA6D009E739F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66DFF2F716A3AA6C009E739F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFF30C16A3AA6C009E739F /* main.m in Sources */,
+				66DFF31316A3AA6C009E739F /* MLAppDelegate.m in Sources */,
+				6657033D16AB3F3400C7B545 /* MLListWindowDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66DFF30816A3AA6C009E739F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DFF30916A3AA6C009E739F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66DFF30E16A3AA6C009E739F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DFF30F16A3AA6C009E739F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66DFF31416A3AA6D009E739F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DFF31516A3AA6D009E739F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66DFF31716A3AA6D009E739F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66DFF31816A3AA6D009E739F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66DFF31A16A3AA6D009E739F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuLab/MenuLab-Prefix.pch";
+				INFOPLIST_FILE = "MenuLab/MenuLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66DFF31B16A3AA6D009E739F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MenuLab/MenuLab-Prefix.pch";
+				INFOPLIST_FILE = "MenuLab/MenuLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66DFF2F516A3AA6C009E739F /* Build configuration list for PBXProject "MenuLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DFF31716A3AA6D009E739F /* Debug */,
+				66DFF31816A3AA6D009E739F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DFF31916A3AA6D009E739F /* Build configuration list for PBXNativeTarget "MenuLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DFF31A16A3AA6D009E739F /* Debug */,
+				66DFF31B16A3AA6D009E739F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66DFF2F216A3AA6C009E739F /* Project object */;
+}

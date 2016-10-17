@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MythicalBand" syncable="YES">
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="gigs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MythicalGig" inverseName="band" inverseEntity="MythicalGig" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MythicalPerson" inverseName="memberOf" inverseEntity="MythicalPerson" syncable="YES"/>
+    </entity>
+    <entity name="MythicalGig" syncable="YES">
+        <attribute name="performanceDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="band" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MythicalBand" inverseName="gigs" inverseEntity="MythicalBand" syncable="YES"/>
+        <relationship name="venue" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MythicalVenue" inverseName="gigs" inverseEntity="MythicalVenue" syncable="YES"/>
+    </entity>
+    <entity name="MythicalPerson" representedClassName="MythicalPerson" syncable="YES">
+        <attribute name="depiction" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="divinity" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="100" defaultValueString="50" syncable="YES"/>
+        <attribute name="goodness" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="100" defaultValueString="50" syncable="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString="Name" syncable="YES"/>
+        <attribute name="power" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="100" defaultValueString="50" syncable="YES"/>
+        <relationship name="memberOf" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MythicalBand" inverseName="members" inverseEntity="MythicalBand" syncable="YES"/>
+    </entity>
+    <entity name="MythicalVenue" syncable="YES">
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="gigs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MythicalGig" inverseName="venue" inverseEntity="MythicalGig" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MythicalBand" positionX="160" positionY="152" width="128" height="88"/>
+        <element name="MythicalGig" positionX="160" positionY="45" width="128" height="88"/>
+        <element name="MythicalPerson" positionX="0" positionY="0" width="128" height="148"/>
+        <element name="MythicalVenue" positionX="160" positionY="-45" width="128" height="73"/>
+    </elements>
+</model>

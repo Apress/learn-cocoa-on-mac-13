@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663BD98F1620BAE3000E0250 /* MythicalPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 663BD98E1620BAE3000E0250 /* MythicalPerson.m */; };
+		667D5A8A15FB989600344D2C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667D5A8915FB989600344D2C /* Cocoa.framework */; };
+		667D5A9415FB989600344D2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 667D5A9215FB989600344D2C /* InfoPlist.strings */; };
+		667D5A9615FB989600344D2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 667D5A9515FB989600344D2C /* main.m */; };
+		667D5A9A15FB989600344D2C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 667D5A9815FB989600344D2C /* Credits.rtf */; };
+		667D5A9D15FB989600344D2C /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 667D5A9C15FB989600344D2C /* MBAppDelegate.m */; };
+		667D5AA015FB989600344D2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 667D5A9E15FB989600344D2C /* MainMenu.xib */; };
+		667D5AA315FB989600344D2C /* MythBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 667D5AA115FB989600344D2C /* MythBase.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		663BD98D1620BAE3000E0250 /* MythicalPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MythicalPerson.h; sourceTree = "<group>"; };
+		663BD98E1620BAE3000E0250 /* MythicalPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MythicalPerson.m; sourceTree = "<group>"; };
+		667D5A8515FB989600344D2C /* MythBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MythBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		667D5A8915FB989600344D2C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		667D5A8C15FB989600344D2C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		667D5A8D15FB989600344D2C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		667D5A8E15FB989600344D2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		667D5A9115FB989600344D2C /* MythBase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MythBase-Info.plist"; sourceTree = "<group>"; };
+		667D5A9315FB989600344D2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		667D5A9515FB989600344D2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		667D5A9715FB989600344D2C /* MythBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MythBase-Prefix.pch"; sourceTree = "<group>"; };
+		667D5A9915FB989600344D2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		667D5A9B15FB989600344D2C /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		667D5A9C15FB989600344D2C /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		667D5A9F15FB989600344D2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		667D5AA215FB989600344D2C /* MythBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MythBase.xcdatamodel; sourceTree = "<group>"; };
+		66DDBD021646E54500131680 /* MythBase 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MythBase 2.xcdatamodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		667D5A8215FB989600344D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667D5A8A15FB989600344D2C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		667D5A7A15FB989600344D2C = {
+			isa = PBXGroup;
+			children = (
+				667D5A8F15FB989600344D2C /* MythBase */,
+				667D5A8815FB989600344D2C /* Frameworks */,
+				667D5A8615FB989600344D2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		667D5A8615FB989600344D2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667D5A8515FB989600344D2C /* MythBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667D5A8815FB989600344D2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				667D5A8915FB989600344D2C /* Cocoa.framework */,
+				667D5A8B15FB989600344D2C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		667D5A8B15FB989600344D2C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				667D5A8C15FB989600344D2C /* AppKit.framework */,
+				667D5A8D15FB989600344D2C /* CoreData.framework */,
+				667D5A8E15FB989600344D2C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		667D5A8F15FB989600344D2C /* MythBase */ = {
+			isa = PBXGroup;
+			children = (
+				667D5A9B15FB989600344D2C /* MBAppDelegate.h */,
+				667D5A9C15FB989600344D2C /* MBAppDelegate.m */,
+				663BD98D1620BAE3000E0250 /* MythicalPerson.h */,
+				663BD98E1620BAE3000E0250 /* MythicalPerson.m */,
+				667D5A9E15FB989600344D2C /* MainMenu.xib */,
+				667D5AA115FB989600344D2C /* MythBase.xcdatamodeld */,
+				667D5A9015FB989600344D2C /* Supporting Files */,
+			);
+			path = MythBase;
+			sourceTree = "<group>";
+		};
+		667D5A9015FB989600344D2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				667D5A9115FB989600344D2C /* MythBase-Info.plist */,
+				667D5A9215FB989600344D2C /* InfoPlist.strings */,
+				667D5A9515FB989600344D2C /* main.m */,
+				667D5A9715FB989600344D2C /* MythBase-Prefix.pch */,
+				667D5A9815FB989600344D2C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		667D5A8415FB989600344D2C /* MythBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667D5AA615FB989600344D2C /* Build configuration list for PBXNativeTarget "MythBase" */;
+			buildPhases = (
+				667D5A8115FB989600344D2C /* Sources */,
+				667D5A8215FB989600344D2C /* Frameworks */,
+				667D5A8315FB989600344D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MythBase;
+			productName = MythBase;
+			productReference = 667D5A8515FB989600344D2C /* MythBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		667D5A7C15FB989600344D2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = myself;
+			};
+			buildConfigurationList = 667D5A7F15FB989600344D2C /* Build configuration list for PBXProject "MythBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 667D5A7A15FB989600344D2C;
+			productRefGroup = 667D5A8615FB989600344D2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				667D5A8415FB989600344D2C /* MythBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		667D5A8315FB989600344D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667D5A9415FB989600344D2C /* InfoPlist.strings in Resources */,
+				667D5A9A15FB989600344D2C /* Credits.rtf in Resources */,
+				667D5AA015FB989600344D2C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		667D5A8115FB989600344D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667D5A9615FB989600344D2C /* main.m in Sources */,
+				667D5A9D15FB989600344D2C /* MBAppDelegate.m in Sources */,
+				667D5AA315FB989600344D2C /* MythBase.xcdatamodeld in Sources */,
+				663BD98F1620BAE3000E0250 /* MythicalPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		667D5A9215FB989600344D2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667D5A9315FB989600344D2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		667D5A9815FB989600344D2C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667D5A9915FB989600344D2C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		667D5A9E15FB989600344D2C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667D5A9F15FB989600344D2C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		667D5AA415FB989600344D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		667D5AA515FB989600344D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		667D5AA715FB989600344D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MythBase/MythBase-Prefix.pch";
+				INFOPLIST_FILE = "MythBase/MythBase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		667D5AA815FB989600344D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MythBase/MythBase-Prefix.pch";
+				INFOPLIST_FILE = "MythBase/MythBase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		667D5A7F15FB989600344D2C /* Build configuration list for PBXProject "MythBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667D5AA415FB989600344D2C /* Debug */,
+				667D5AA515FB989600344D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667D5AA615FB989600344D2C /* Build configuration list for PBXNativeTarget "MythBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667D5AA715FB989600344D2C /* Debug */,
+				667D5AA815FB989600344D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		667D5AA115FB989600344D2C /* MythBase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				66DDBD021646E54500131680 /* MythBase 2.xcdatamodel */,
+				667D5AA215FB989600344D2C /* MythBase.xcdatamodel */,
+			);
+			currentVersion = 66DDBD021646E54500131680 /* MythBase 2.xcdatamodel */;
+			path = MythBase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 667D5A7C15FB989600344D2C /* Project object */;
+}

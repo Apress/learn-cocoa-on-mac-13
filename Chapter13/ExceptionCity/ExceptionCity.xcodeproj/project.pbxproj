@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AB54E216C31BF20010CC83 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AB54E116C31BF20010CC83 /* Cocoa.framework */; };
+		04AB54EC16C31BF20010CC83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04AB54EA16C31BF20010CC83 /* InfoPlist.strings */; };
+		04AB54EE16C31BF20010CC83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB54ED16C31BF20010CC83 /* main.m */; };
+		04AB54F216C31BF20010CC83 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 04AB54F016C31BF20010CC83 /* Credits.rtf */; };
+		04AB54F516C31BF20010CC83 /* ECAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AB54F416C31BF20010CC83 /* ECAppDelegate.m */; };
+		04AB54F816C31BF20010CC83 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB54F616C31BF20010CC83 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04AB54DE16C31BF20010CC83 /* ExceptionCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExceptionCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AB54E116C31BF20010CC83 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		04AB54E416C31BF20010CC83 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		04AB54E516C31BF20010CC83 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04AB54E616C31BF20010CC83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04AB54E916C31BF20010CC83 /* ExceptionCity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExceptionCity-Info.plist"; sourceTree = "<group>"; };
+		04AB54EB16C31BF20010CC83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04AB54ED16C31BF20010CC83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AB54EF16C31BF20010CC83 /* ExceptionCity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExceptionCity-Prefix.pch"; sourceTree = "<group>"; };
+		04AB54F116C31BF20010CC83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		04AB54F316C31BF20010CC83 /* ECAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAppDelegate.h; sourceTree = "<group>"; };
+		04AB54F416C31BF20010CC83 /* ECAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAppDelegate.m; sourceTree = "<group>"; };
+		04AB54F716C31BF20010CC83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AB54DB16C31BF20010CC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AB54E216C31BF20010CC83 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AB54D516C31BF20010CC83 = {
+			isa = PBXGroup;
+			children = (
+				04AB54E716C31BF20010CC83 /* ExceptionCity */,
+				04AB54E016C31BF20010CC83 /* Frameworks */,
+				04AB54DF16C31BF20010CC83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AB54DF16C31BF20010CC83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AB54DE16C31BF20010CC83 /* ExceptionCity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AB54E016C31BF20010CC83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AB54E116C31BF20010CC83 /* Cocoa.framework */,
+				04AB54E316C31BF20010CC83 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04AB54E316C31BF20010CC83 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AB54E416C31BF20010CC83 /* AppKit.framework */,
+				04AB54E516C31BF20010CC83 /* CoreData.framework */,
+				04AB54E616C31BF20010CC83 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		04AB54E716C31BF20010CC83 /* ExceptionCity */ = {
+			isa = PBXGroup;
+			children = (
+				04AB54F316C31BF20010CC83 /* ECAppDelegate.h */,
+				04AB54F416C31BF20010CC83 /* ECAppDelegate.m */,
+				04AB54F616C31BF20010CC83 /* MainMenu.xib */,
+				04AB54E816C31BF20010CC83 /* Supporting Files */,
+			);
+			path = ExceptionCity;
+			sourceTree = "<group>";
+		};
+		04AB54E816C31BF20010CC83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AB54E916C31BF20010CC83 /* ExceptionCity-Info.plist */,
+				04AB54EA16C31BF20010CC83 /* InfoPlist.strings */,
+				04AB54ED16C31BF20010CC83 /* main.m */,
+				04AB54EF16C31BF20010CC83 /* ExceptionCity-Prefix.pch */,
+				04AB54F016C31BF20010CC83 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AB54DD16C31BF20010CC83 /* ExceptionCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AB54FB16C31BF20010CC83 /* Build configuration list for PBXNativeTarget "ExceptionCity" */;
+			buildPhases = (
+				04AB54DA16C31BF20010CC83 /* Sources */,
+				04AB54DB16C31BF20010CC83 /* Frameworks */,
+				04AB54DC16C31BF20010CC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExceptionCity;
+			productName = ExceptionCity;
+			productReference = 04AB54DE16C31BF20010CC83 /* ExceptionCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AB54D616C31BF20010CC83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Rebisoft;
+			};
+			buildConfigurationList = 04AB54D916C31BF20010CC83 /* Build configuration list for PBXProject "ExceptionCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04AB54D516C31BF20010CC83;
+			productRefGroup = 04AB54DF16C31BF20010CC83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AB54DD16C31BF20010CC83 /* ExceptionCity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AB54DC16C31BF20010CC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AB54EC16C31BF20010CC83 /* InfoPlist.strings in Resources */,
+				04AB54F216C31BF20010CC83 /* Credits.rtf in Resources */,
+				04AB54F816C31BF20010CC83 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AB54DA16C31BF20010CC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AB54EE16C31BF20010CC83 /* main.m in Sources */,
+				04AB54F516C31BF20010CC83 /* ECAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04AB54EA16C31BF20010CC83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AB54EB16C31BF20010CC83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04AB54F016C31BF20010CC83 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AB54F116C31BF20010CC83 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		04AB54F616C31BF20010CC83 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AB54F716C31BF20010CC83 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AB54F916C31BF20010CC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04AB54FA16C31BF20010CC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04AB54FC16C31BF20010CC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExceptionCity/ExceptionCity-Prefix.pch";
+				INFOPLIST_FILE = "ExceptionCity/ExceptionCity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04AB54FD16C31BF20010CC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExceptionCity/ExceptionCity-Prefix.pch";
+				INFOPLIST_FILE = "ExceptionCity/ExceptionCity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AB54D916C31BF20010CC83 /* Build configuration list for PBXProject "ExceptionCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AB54F916C31BF20010CC83 /* Debug */,
+				04AB54FA16C31BF20010CC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AB54FB16C31BF20010CC83 /* Build configuration list for PBXNativeTarget "ExceptionCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AB54FC16C31BF20010CC83 /* Debug */,
+				04AB54FD16C31BF20010CC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AB54D616C31BF20010CC83 /* Project object */;
+}

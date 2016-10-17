@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		669BFFBF16AB4DB70099E7E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669BFFBE16AB4DB70099E7E2 /* Cocoa.framework */; };
+		669BFFC916AB4DB70099E7E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 669BFFC716AB4DB70099E7E2 /* InfoPlist.strings */; };
+		669BFFCB16AB4DB70099E7E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 669BFFCA16AB4DB70099E7E2 /* main.m */; };
+		669BFFCF16AB4DB70099E7E2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 669BFFCD16AB4DB70099E7E2 /* Credits.rtf */; };
+		669BFFD216AB4DB70099E7E2 /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 669BFFD116AB4DB70099E7E2 /* SLAppDelegate.m */; };
+		669BFFD516AB4DB70099E7E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 669BFFD316AB4DB70099E7E2 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		669BFFBA16AB4DB70099E7E2 /* SheetLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheetLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		669BFFBE16AB4DB70099E7E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		669BFFC116AB4DB70099E7E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		669BFFC216AB4DB70099E7E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		669BFFC316AB4DB70099E7E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		669BFFC616AB4DB70099E7E2 /* SheetLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SheetLab-Info.plist"; sourceTree = "<group>"; };
+		669BFFC816AB4DB70099E7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		669BFFCA16AB4DB70099E7E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		669BFFCC16AB4DB70099E7E2 /* SheetLab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SheetLab-Prefix.pch"; sourceTree = "<group>"; };
+		669BFFCE16AB4DB70099E7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		669BFFD016AB4DB70099E7E2 /* SLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAppDelegate.h; sourceTree = "<group>"; };
+		669BFFD116AB4DB70099E7E2 /* SLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
+		669BFFD416AB4DB70099E7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		669BFFB716AB4DB70099E7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669BFFBF16AB4DB70099E7E2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		669BFFAF16AB4DB70099E7E2 = {
+			isa = PBXGroup;
+			children = (
+				669BFFC416AB4DB70099E7E2 /* SheetLab */,
+				669BFFBD16AB4DB70099E7E2 /* Frameworks */,
+				669BFFBB16AB4DB70099E7E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		669BFFBB16AB4DB70099E7E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669BFFBA16AB4DB70099E7E2 /* SheetLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		669BFFBD16AB4DB70099E7E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				669BFFBE16AB4DB70099E7E2 /* Cocoa.framework */,
+				669BFFC016AB4DB70099E7E2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		669BFFC016AB4DB70099E7E2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				669BFFC116AB4DB70099E7E2 /* AppKit.framework */,
+				669BFFC216AB4DB70099E7E2 /* CoreData.framework */,
+				669BFFC316AB4DB70099E7E2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		669BFFC416AB4DB70099E7E2 /* SheetLab */ = {
+			isa = PBXGroup;
+			children = (
+				669BFFD016AB4DB70099E7E2 /* SLAppDelegate.h */,
+				669BFFD116AB4DB70099E7E2 /* SLAppDelegate.m */,
+				669BFFD316AB4DB70099E7E2 /* MainMenu.xib */,
+				669BFFC516AB4DB70099E7E2 /* Supporting Files */,
+			);
+			path = SheetLab;
+			sourceTree = "<group>";
+		};
+		669BFFC516AB4DB70099E7E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				669BFFC616AB4DB70099E7E2 /* SheetLab-Info.plist */,
+				669BFFC716AB4DB70099E7E2 /* InfoPlist.strings */,
+				669BFFCA16AB4DB70099E7E2 /* main.m */,
+				669BFFCC16AB4DB70099E7E2 /* SheetLab-Prefix.pch */,
+				669BFFCD16AB4DB70099E7E2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		669BFFB916AB4DB70099E7E2 /* SheetLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669BFFD816AB4DB70099E7E2 /* Build configuration list for PBXNativeTarget "SheetLab" */;
+			buildPhases = (
+				669BFFB616AB4DB70099E7E2 /* Sources */,
+				669BFFB716AB4DB70099E7E2 /* Frameworks */,
+				669BFFB816AB4DB70099E7E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SheetLab;
+			productName = SheetLab;
+			productReference = 669BFFBA16AB4DB70099E7E2 /* SheetLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		669BFFB116AB4DB70099E7E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = myself;
+			};
+			buildConfigurationList = 669BFFB416AB4DB70099E7E2 /* Build configuration list for PBXProject "SheetLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 669BFFAF16AB4DB70099E7E2;
+			productRefGroup = 669BFFBB16AB4DB70099E7E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				669BFFB916AB4DB70099E7E2 /* SheetLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		669BFFB816AB4DB70099E7E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669BFFC916AB4DB70099E7E2 /* InfoPlist.strings in Resources */,
+				669BFFCF16AB4DB70099E7E2 /* Credits.rtf in Resources */,
+				669BFFD516AB4DB70099E7E2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		669BFFB616AB4DB70099E7E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669BFFCB16AB4DB70099E7E2 /* main.m in Sources */,
+				669BFFD216AB4DB70099E7E2 /* SLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		669BFFC716AB4DB70099E7E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669BFFC816AB4DB70099E7E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		669BFFCD16AB4DB70099E7E2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669BFFCE16AB4DB70099E7E2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		669BFFD316AB4DB70099E7E2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				669BFFD416AB4DB70099E7E2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		669BFFD616AB4DB70099E7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		669BFFD716AB4DB70099E7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		669BFFD916AB4DB70099E7E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SheetLab/SheetLab-Prefix.pch";
+				INFOPLIST_FILE = "SheetLab/SheetLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		669BFFDA16AB4DB70099E7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SheetLab/SheetLab-Prefix.pch";
+				INFOPLIST_FILE = "SheetLab/SheetLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		669BFFB416AB4DB70099E7E2 /* Build configuration list for PBXProject "SheetLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669BFFD616AB4DB70099E7E2 /* Debug */,
+				669BFFD716AB4DB70099E7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669BFFD816AB4DB70099E7E2 /* Build configuration list for PBXNativeTarget "SheetLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669BFFD916AB4DB70099E7E2 /* Debug */,
+				669BFFDA16AB4DB70099E7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 669BFFB116AB4DB70099E7E2 /* Project object */;
+}

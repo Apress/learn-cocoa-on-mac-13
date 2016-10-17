@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049F4A08169DC6B8000DDCF7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049F4A07169DC6B8000DDCF7 /* Cocoa.framework */; };
+		049F4A12169DC6B8000DDCF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 049F4A10169DC6B8000DDCF7 /* InfoPlist.strings */; };
+		049F4A14169DC6B8000DDCF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F4A13169DC6B8000DDCF7 /* main.m */; };
+		049F4A18169DC6B8000DDCF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 049F4A16169DC6B8000DDCF7 /* Credits.rtf */; };
+		049F4A1B169DC6B8000DDCF7 /* CMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F4A1A169DC6B8000DDCF7 /* CMDocument.m */; };
+		049F4A1E169DC6B8000DDCF7 /* CMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049F4A1C169DC6B8000DDCF7 /* CMDocument.xib */; };
+		049F4A21169DC6B8000DDCF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049F4A1F169DC6B8000DDCF7 /* MainMenu.xib */; };
+		049F4A24169DC6B8000DDCF7 /* CMDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 049F4A22169DC6B8000DDCF7 /* CMDocument.xcdatamodeld */; };
+		04E5978216A76E5F00A1311F /* CMColorBlendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5978116A76E5F00A1311F /* CMColorBlendView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049F4A03169DC6B8000DDCF7 /* ColorMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F4A07169DC6B8000DDCF7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		049F4A0A169DC6B8000DDCF7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		049F4A0B169DC6B8000DDCF7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		049F4A0C169DC6B8000DDCF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		049F4A0F169DC6B8000DDCF7 /* ColorMix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorMix-Info.plist"; sourceTree = "<group>"; };
+		049F4A11169DC6B8000DDCF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		049F4A13169DC6B8000DDCF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049F4A15169DC6B8000DDCF7 /* ColorMix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorMix-Prefix.pch"; sourceTree = "<group>"; };
+		049F4A17169DC6B8000DDCF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		049F4A19169DC6B8000DDCF7 /* CMDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMDocument.h; sourceTree = "<group>"; };
+		049F4A1A169DC6B8000DDCF7 /* CMDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMDocument.m; sourceTree = "<group>"; };
+		049F4A1D169DC6B8000DDCF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CMDocument.xib; sourceTree = "<group>"; };
+		049F4A20169DC6B8000DDCF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		049F4A23169DC6B8000DDCF7 /* CMDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CMDocument.xcdatamodel; sourceTree = "<group>"; };
+		04E5978016A76E5F00A1311F /* CMColorBlendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMColorBlendView.h; sourceTree = "<group>"; };
+		04E5978116A76E5F00A1311F /* CMColorBlendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMColorBlendView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049F4A00169DC6B8000DDCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F4A08169DC6B8000DDCF7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049F49F8169DC6B8000DDCF7 = {
+			isa = PBXGroup;
+			children = (
+				04E5978016A76E5F00A1311F /* CMColorBlendView.h */,
+				04E5978116A76E5F00A1311F /* CMColorBlendView.m */,
+				049F4A0D169DC6B8000DDCF7 /* ColorMix */,
+				049F4A06169DC6B8000DDCF7 /* Frameworks */,
+				049F4A04169DC6B8000DDCF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049F4A04169DC6B8000DDCF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049F4A03169DC6B8000DDCF7 /* ColorMix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049F4A06169DC6B8000DDCF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				049F4A07169DC6B8000DDCF7 /* Cocoa.framework */,
+				049F4A09169DC6B8000DDCF7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		049F4A09169DC6B8000DDCF7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				049F4A0A169DC6B8000DDCF7 /* AppKit.framework */,
+				049F4A0B169DC6B8000DDCF7 /* CoreData.framework */,
+				049F4A0C169DC6B8000DDCF7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		049F4A0D169DC6B8000DDCF7 /* ColorMix */ = {
+			isa = PBXGroup;
+			children = (
+				049F4A19169DC6B8000DDCF7 /* CMDocument.h */,
+				049F4A1A169DC6B8000DDCF7 /* CMDocument.m */,
+				049F4A1C169DC6B8000DDCF7 /* CMDocument.xib */,
+				049F4A1F169DC6B8000DDCF7 /* MainMenu.xib */,
+				049F4A22169DC6B8000DDCF7 /* CMDocument.xcdatamodeld */,
+				049F4A0E169DC6B8000DDCF7 /* Supporting Files */,
+			);
+			path = ColorMix;
+			sourceTree = "<group>";
+		};
+		049F4A0E169DC6B8000DDCF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				049F4A0F169DC6B8000DDCF7 /* ColorMix-Info.plist */,
+				049F4A10169DC6B8000DDCF7 /* InfoPlist.strings */,
+				049F4A13169DC6B8000DDCF7 /* main.m */,
+				049F4A15169DC6B8000DDCF7 /* ColorMix-Prefix.pch */,
+				049F4A16169DC6B8000DDCF7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049F4A02169DC6B8000DDCF7 /* ColorMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F4A27169DC6B8000DDCF7 /* Build configuration list for PBXNativeTarget "ColorMix" */;
+			buildPhases = (
+				049F49FF169DC6B8000DDCF7 /* Sources */,
+				049F4A00169DC6B8000DDCF7 /* Frameworks */,
+				049F4A01169DC6B8000DDCF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorMix;
+			productName = ColorMix;
+			productReference = 049F4A03169DC6B8000DDCF7 /* ColorMix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049F49FA169DC6B8000DDCF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Rebisoft;
+			};
+			buildConfigurationList = 049F49FD169DC6B8000DDCF7 /* Build configuration list for PBXProject "ColorMix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 049F49F8169DC6B8000DDCF7;
+			productRefGroup = 049F4A04169DC6B8000DDCF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049F4A02169DC6B8000DDCF7 /* ColorMix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049F4A01169DC6B8000DDCF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F4A12169DC6B8000DDCF7 /* InfoPlist.strings in Resources */,
+				049F4A18169DC6B8000DDCF7 /* Credits.rtf in Resources */,
+				049F4A1E169DC6B8000DDCF7 /* CMDocument.xib in Resources */,
+				049F4A21169DC6B8000DDCF7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049F49FF169DC6B8000DDCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F4A14169DC6B8000DDCF7 /* main.m in Sources */,
+				049F4A1B169DC6B8000DDCF7 /* CMDocument.m in Sources */,
+				049F4A24169DC6B8000DDCF7 /* CMDocument.xcdatamodeld in Sources */,
+				04E5978216A76E5F00A1311F /* CMColorBlendView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		049F4A10169DC6B8000DDCF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F4A11169DC6B8000DDCF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		049F4A16169DC6B8000DDCF7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F4A17169DC6B8000DDCF7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		049F4A1C169DC6B8000DDCF7 /* CMDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F4A1D169DC6B8000DDCF7 /* en */,
+			);
+			name = CMDocument.xib;
+			sourceTree = "<group>";
+		};
+		049F4A1F169DC6B8000DDCF7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F4A20169DC6B8000DDCF7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049F4A25169DC6B8000DDCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		049F4A26169DC6B8000DDCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		049F4A28169DC6B8000DDCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorMix/ColorMix-Prefix.pch";
+				INFOPLIST_FILE = "ColorMix/ColorMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		049F4A29169DC6B8000DDCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorMix/ColorMix-Prefix.pch";
+				INFOPLIST_FILE = "ColorMix/ColorMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049F49FD169DC6B8000DDCF7 /* Build configuration list for PBXProject "ColorMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F4A25169DC6B8000DDCF7 /* Debug */,
+				049F4A26169DC6B8000DDCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F4A27169DC6B8000DDCF7 /* Build configuration list for PBXNativeTarget "ColorMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F4A28169DC6B8000DDCF7 /* Debug */,
+				049F4A29169DC6B8000DDCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		049F4A22169DC6B8000DDCF7 /* CMDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				049F4A23169DC6B8000DDCF7 /* CMDocument.xcdatamodel */,
+			);
+			currentVersion = 049F4A23169DC6B8000DDCF7 /* CMDocument.xcdatamodel */;
+			path = CMDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 049F49FA169DC6B8000DDCF7 /* Project object */;
+}

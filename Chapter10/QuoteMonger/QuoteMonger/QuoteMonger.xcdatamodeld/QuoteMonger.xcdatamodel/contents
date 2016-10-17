@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Quote" syncable="YES">
+        <attribute name="character" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="quoteText" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="show" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Show" inverseName="quotes" inverseEntity="Show" syncable="YES"/>
+    </entity>
+    <entity name="Show" syncable="YES">
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="quotes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Quote" inverseName="show" inverseEntity="Quote" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Show" positionX="160" positionY="192" width="128" height="73"/>
+        <element name="Quote" positionX="376" positionY="198" width="128" height="90"/>
+    </elements>
+</model>
